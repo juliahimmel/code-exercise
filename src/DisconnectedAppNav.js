@@ -3,6 +3,6 @@ import './DisconnectedAppNav.css';
 
 export default () => {
   return <div>
-    <h1>Disconnected App Nav</h1>
+    <a className="logo" href="#">Pet Central</a>
   </div>
 }

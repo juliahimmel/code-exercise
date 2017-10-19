@@ -1,1 +1,65 @@
+.liked-pets {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
 
+ul.pet-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  padding-left: 0;
+}
+
+.liked-pets h1 {
+  font-weight: 300;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.liked-pets .pet {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-right: 1px solid #bfbfbf;
+  padding: 20px 20px;
+}
+
+ul.pet-list li:last-of-type {
+  border-right: none;
+}
+
+.liked-pets .pet-name {
+  font-weight: 300;
+}
+
+.liked-pets .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.liked-pets .liked {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  color: #7F7F7F;
+  font-size: 0.75em;
+}
+
+.liked-pets .liked .status {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.2em;
+  color: #7F7F7F;
+}
+
+.liked-pets img {
+  object-fit: cover;
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}

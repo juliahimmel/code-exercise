@@ -7,6 +7,7 @@
 
 .disconnected-app-info {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
+  flex-direction: column;
   justify-content: space-around;
 }

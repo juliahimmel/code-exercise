@@ -10,9 +10,9 @@ export default () => {
     {/* <h1>Not Connected to Ethereum</h1> */}
     <DisconnectedAppNav />
     <div className="disconnected-app-info">
-      <DisconnectedAppMessage />
       <LikedPets />
+      <DisconnectedAppMessage />
     </div>
-    
+
   </div>
 }

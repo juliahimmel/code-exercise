@@ -1,3 +1,44 @@
 .disconnected-app-message {
-  width: 50%;
+  width: 60%;
+  /*margin: 0 auto;*/
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #fff4c2;
+}
+
+.disconnected-app-message ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  padding-left: 0;
+}
+
+.disconnected-app-message h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.disconnected-app-message h1 span {
+  font-weight: 300
+}
+
+.disconnected-app-message p {
+  font-weight: 400;
+}
+
+.disconnected-app-message p span {
+  font-weight: 600;
+}
+
+.disconnected-app-message p.intro {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.disconnected-app-message .browser {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  /*color: #7F7F7F;*/
+  font-size: 0.75em;
 }
