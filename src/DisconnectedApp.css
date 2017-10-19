@@ -1,0 +1,12 @@
+.disconnected-app {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.disconnected-app-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
