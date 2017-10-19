@@ -1,6 +1,5 @@
 .disconnected-app-message {
   width: 60%;
-  /*margin: 0 auto;*/
   margin: 20px auto;
   padding: 40px;
   background-color: #fff4c2;
@@ -15,7 +14,7 @@
 .disconnected-app-message h1 {
   font-weight: 700;
   font-size: 1.5em;
-  margin: 0;
+  margin-top: 0;
 }
 
 .disconnected-app-message h1 span {
@@ -39,6 +38,5 @@
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0.2em;
-  /*color: #7F7F7F;*/
   font-size: 0.75em;
 }

@@ -7,7 +7,6 @@ import './DisconnectedApp.css';
 
 export default () => {
   return <div className="disconnected-app">
-    {/* <h1>Not Connected to Ethereum</h1> */}
     <DisconnectedAppNav />
     <div className="disconnected-app-info">
       <LikedPets />
