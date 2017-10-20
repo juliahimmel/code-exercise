@@ -8,6 +8,7 @@
 .disconnected-app-message ul {
   list-style-type: none;
   -webkit-padding-start: 0;
+  -webkit-margin-before: 0em;
   padding-left: 0;
 }
 
@@ -25,8 +26,9 @@
   font-weight: 400;
 }
 
-.disconnected-app-message p span {
-  font-weight: 600;
+.disconnected-app-message .price {
+  font-weight: 700;
+  margin-bottom: 1.5em;
 }
 
 .disconnected-app-message p.intro {
