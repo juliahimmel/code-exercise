@@ -1,6 +1,6 @@
 # Design Exercise: “Disconnected App” page
 
-## Assumptions I made:
+## Assumptions I made
 
 - The user is logged in.
 - The user has already liked/favorited pets.
@@ -32,6 +32,9 @@ Visit site > Create an account/log in > “Like” pets (prompted to visit “di
 
 ### I would love to test this prototype with users after creating a short script to prompt them
 
+#
+#
+#
 
 # Getting set up
 - Run "npm install"
