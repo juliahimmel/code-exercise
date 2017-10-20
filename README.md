@@ -1,18 +1,18 @@
-#Design Exercise: “Disconnected App” page
+# Design Exercise: “Disconnected App” page
 
-##Assumptions I made:
+## Assumptions I made:
 
 - The user is logged in.
 - The user has already liked/favorited pets.
 - A user is able to like/favorite pets without being connected to Ethereum. A record is kept of the user’s “likes” and the donations are made after Ethereum is connected.
 
-##Possible user flows
+## Possible user flows
 
 Visit site > “Like” pets (kept in local storage) > Get prompted to create an account > Create account > see “disconnected app” page > connect Ethereum; money gets donated
 
 Visit site > Create an account/log in > “Like” pets (prompted to visit “disconnected app” page each time) > visit “disconnected app” page > connect Ethereum; money gets donated
 
-##Requirements for this page
+## Requirements for this page
 
 - Remind user why they should donate (shows already-liked pets)
 - Let user know that they need to connect to Ethereum in order to donate
@@ -21,6 +21,17 @@ Visit site > Create an account/log in > “Like” pets (prompted to visit “di
 - Give user chance to unfavorite pets (interaction needs to be added)
 - Let user know how much it will cost
 - Get user's trust
+
+## Open questions include:
+
+- Interaction around liking/unliking pets
+- Contextual info (when trying to like a pet, you should get a tooltip, for example, to explain to you that this will only work of Ethereum is connected)
+- More robust copy to tell user more about what is going to happen once they connect Ethereum
+- Should more info about Ethereum appear in a modal or accordion so that users don’t leave the page?
+- And many more!
+
+### I would love to test this prototype with users after creating a short script to prompt them
+
 
 # Getting set up
 - Run "npm install"
