@@ -32,6 +32,10 @@ Visit site > Create an account/log in > “Like” pets (prompted to visit “di
 
 ### I would love to test this prototype with users after creating a short script to prompt them
 
+## Screenshot
+
+![Screenshot](https://s3.amazonaws.com/julia-himmel-personal-site/Screen+Shot+2017-10-19+at+8.27.30+PM.png)
+
 #
 #
 #
